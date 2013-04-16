@@ -1,11 +1,3 @@
-<div class="container">
-
-<ol>
-<% @tweets.each do |tweet| %>
-
-<li><%= tweet.text %></li>
-
-<% end %>
-</ol>
-
-</div>
+<h2><%=params[:username] %>'s last 10 Tweets:</h2>
+<div class='tweets'><img src='ajax-loader.gif'></div>
+<div class='follower_count'><img src='ajax-loader.gif'></div>
